@@ -10,13 +10,13 @@ import {
   TickMath,
   TICK_SPACINGS,
   FeeAmount,
-} from '@monoswap-labs/v3-sdk'
+} from '@uniswap/v3-sdk'
 import { SwapOptions } from '../../src'
-import { CurrencyAmount, TradeType, Ether, Token, Percent, Currency } from '@monoswap-labs/sdk-core'
+import { CurrencyAmount, TradeType, Ether, Token, Percent, Currency } from '@uniswap/sdk-core'
 import IUniswapV3Pool from '@uniswap/v3-core/artifacts/contracts/UniswapV3Pool.sol/UniswapV3Pool.json'
 import { TEST_RECIPIENT_ADDRESS } from './addresses'
 
-const V2_FACTORY = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
+const V2_FACTORY = '0xE63D69fFdB211dD747ad8970544043fADE7d20f5'
 const V2_ABI = [
   {
     constant: true,

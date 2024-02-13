@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Ether } from '@monoswap-labs/sdk-core'
+import { Currency, CurrencyAmount, Ether } from '@uniswap/sdk-core'
 
 export function getNativeCurrencyValue(currencyValues: CurrencyAmount<Currency>[]): CurrencyAmount<Currency> {
   for (const value of currencyValues) {

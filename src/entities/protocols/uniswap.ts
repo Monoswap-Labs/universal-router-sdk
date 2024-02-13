@@ -1,6 +1,6 @@
 import { RoutePlanner, CommandType } from '../../utils/routerCommands'
 import { Trade as V2Trade, Pair } from '@monoswap-labs/v2-sdk'
-import { Trade as V3Trade, Pool, encodeRouteToPath } from '@monoswap-labs/v3-sdk'
+import { Trade as V3Trade, Pool, encodeRouteToPath } from '@uniswap/v3-sdk'
 import {
   Trade as RouterTrade,
   MixedRouteTrade,
@@ -16,7 +16,7 @@ import {
   partitionMixedRouteByProtocol,
 } from '@monoswap-labs/router-sdk'
 import { Permit2Permit } from '../../utils/inputTokens'
-import { Currency, TradeType, CurrencyAmount, Percent } from '@monoswap-labs/sdk-core'
+import { Currency, TradeType, CurrencyAmount, Percent } from '@uniswap/sdk-core'
 import { Command, RouterTradeType, TradeConfig } from '../Command'
 import { SENDER_AS_RECIPIENT, ROUTER_AS_RECIPIENT, CONTRACT_BALANCE } from '../../utils/constants'
 import { encodeFeeBips } from '../../utils/numbers'

@@ -1,6 +1,6 @@
 {
   "name": "@monoswap-labs/universal-router-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -50,11 +50,11 @@
   },
   "dependencies": {
     "@uniswap/permit2-sdk": "^1.2.0",
-    "@monoswap-labs/router-sdk": "0.0.1",
-    "@monoswap-labs/sdk-core": "0.0.1",
+    "@monoswap-labs/router-sdk": "0.0.3",
+    "@uniswap/sdk-core": "^4.0.7",
     "@uniswap/universal-router": "1.6.0",
-    "@monoswap-labs/v2-sdk": "0.0.1",
-    "@monoswap-labs/v3-sdk": "0.0.1",
+    "@monoswap-labs/v2-sdk": "0.0.3",
+    "@uniswap/v3-sdk": "^3.10.1",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.3.1"
   },

@@ -1,6 +1,6 @@
 {
-  "name": "@uniswap/universal-router-sdk",
-  "version": "1.7.1",
+  "name": "@monoswap-labs/universal-router-sdk",
+  "version": "3.0.0",
   "description": "sdk for integrating with the Universal Router contracts",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -25,7 +25,7 @@
     "prettier": "prettier --check '**/*.ts' && prettier --check '**/*.json'",
     "docs": "typedoc"
   },
-  "author": "@Uniswap",
+  "author": "@MonoswapLabs",
   "prettier": {
     "printWidth": 120,
     "semi": false,
@@ -49,21 +49,21 @@
     "typescript": "^4.3.3"
   },
   "dependencies": {
-    "@uniswap/permit2-sdk": "^1.2.0",
-    "@uniswap/router-sdk": "^1.8.0",
-    "@uniswap/sdk-core": "^4.0.7",
+    "@monoswap-labs/permit2-sdk": "^3.0.0",
+    "@monoswap-labs/router-sdk": "^3.0.0",
+    "@monoswap-labs/sdk-core": "^3.0.0",
     "@uniswap/universal-router": "1.6.0",
-    "@uniswap/v2-sdk": "^4.1.0",
-    "@uniswap/v3-sdk": "^3.10.1",
+    "@monoswap-labs/v2-sdk": "^3.0.1",
+    "@monoswap-labs/v3-sdk": "^3.0.0",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.3.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Uniswap/universal-router-sdk.git"
+    "url": "git+https://github.com/monoswap-labs/universal-router-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/Uniswap/universal-router-sdk/issues"
+    "url": "https://github.com/monoswap-labs/universal-router-sdk/issues"
   },
-  "homepage": "https://github.com/Uniswap/universal-router-sdk#readme"
+  "homepage": "https://github.com/monoswap-labs/universal-router-sdk#readme"
 }
